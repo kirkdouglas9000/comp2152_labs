@@ -5,7 +5,7 @@ import random
 # print("Inside function.py")
 loot_options = ["Health Potion", "Poison Potion", "Secret Note", "Leather Boots", "Flimsy Gloves"]
 belt = []
-bad_loot_options = ["Poison Potion"]
+bad_loot_options = ["Poison Potion"] 
 good_loot_options = ["Health Potion", "Leather Boots"]
 big_dice_options = list(range(1, 21))
 health_points = random.choice(big_dice_options)
